@@ -34,6 +34,11 @@
     }
     
 }
+@media  screen and (max-width: 320px) {
+   .services, header1, body, header, section, footer{
+        width: 100%;
+      flex: 1 1 100%;
+      flex-direction: column;
 
 
 

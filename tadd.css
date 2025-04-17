@@ -107,13 +107,13 @@ img{
 .service{
                   display: block; /* Change to block for sidebar layout */
                   width: 250px; /* Set a fixed width for the sidebar */
-                  margin-top: 2rem;
+                  margin-top: 13rem;
                   margin-left: 0; /* Align to the left */
                   padding: 1rem; /* Add padding for spacing */
                   background-color: #f9f9f9; /* Optional: Add a background color */
                   border-radius: 10px; /* Optional: Add rounded corners */
                   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
-                  position: fixed; /* Fix the sidebar to the left */
+                  position: absolute; /* Fix the sidebar to the left */
                   top: 150px; /* Align to the top */
                   left: 0; /* Align to the left */
                   height: 100%; /* Make it span the full height of the viewport */

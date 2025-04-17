@@ -102,7 +102,7 @@ img{
                   background-color: #f9f9f9; /* Optional: Add a background color */
                   border-radius: 10px; /* Optional: Add rounded corners */
                   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
-                  position: relative; /* Fix the sidebar to the left */
+                  position: absolute; /* Fix the sidebar to the left */
                   top: 0px; /* Align to the top */
                   left: 0; /* Align to the left */
                   height: 100%; /* Make it span the full height of the viewport */

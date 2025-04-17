@@ -1,8 +1,28 @@
+@media  screen and (max-width: 1200px) {
+    
+}
+@media  screen and (max-width: 998px) {
+    
+}
+@media  screen and (max-width: 768px) {
+    
+}
+@media  screen and (max-width: 576px) {
+    
+}
+
+
+
+
 body {
          margin: 0;
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
          background: #fff;
          color: #333;
+         display: flex;
+         flex-direction: column;
+         min-height:100vh ;
+          /* Uncommented this line */
 }
 
 header {
@@ -19,6 +39,8 @@ section {
          padding: 3rem 2rem;
          max-width: 1000px;
          margin: 0 auto;
+         flex: 1;
+
 }
 .services {
          display: grid;
@@ -39,8 +61,62 @@ section {
          transform: translateY(-5px);
 }
 footer {
-         text-align: center;
-         padding: 2rem;
          background-color: #ff4e50;
          color: white;
+         text-align: center;
+         flex: 1;
+}
+img{
+         height: 350px;
+         width: 200px;
+}
+.slider{
+         width: 200px;
+         height: 350px;
+         position:relative;
+         transform-style: preserve-3d;
+         transform: perspective(1000px);
+         animation: galery 20s  linear infinite;
+         cursor: pointer;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+         margin: 300px auto;
+}
+.slider span{
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         transform-style: preserve-3d;
+         transform: rotateY(calc(var(--i)*45deg)) translateZ(500px);
+         -webkit-box-reflect: below 2,5px linear-gradient(transparent, transparent, rgba(3,3,3,0.2));
+}
+.slider span img{
+         position: absolute;
+         border-radius:10px ;
+         border: 6px ridge  #ccc;
+}
+@keyframes galery{
+         0%{
+         transform: perspective(1000px) rotateY(0deg);
+         }
+         100%{
+         transform: perspective(1000px) rotateY(-360deg);
+         }
+}
+.service{
+                  display: block; /* Change to block for sidebar layout */
+                  width: 250px; /* Set a fixed width for the sidebar */
+                  margin-top: 2rem;
+                  margin-left: 0; /* Align to the left */
+                  padding: 1rem; /* Add padding for spacing */
+                  background-color: #f9f9f9; /* Optional: Add a background color */
+                  border-radius: 10px; /* Optional: Add rounded corners */
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+                  position: fixed; /* Fix the sidebar to the left */
+                  top: 150px; /* Align to the top */
+                  left: 0; /* Align to the left */
+                  height: 100%; /* Make it span the full height of the viewport */
+                  overflow-y: auto; /* Add scroll if content overflows */
+                  height: auto;
 }

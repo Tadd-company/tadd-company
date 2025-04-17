@@ -1,24 +1,28 @@
 @media  screen and (max-width: 1200px) {
    header1, body, header, section, footer{
         width: 100%;
+      flex: 1 1 100%;
     }
     
 }
 @media  screen and (max-width: 998px) {
    header1, body, header, section, footer{
         width: 100%;
+      flex: 1 1 100%;
     }
     
 }
 @media  screen and (max-width: 768px) {
     header1, body, header, section, footer{
         width: 100%;
+       flex: 1 1 100%;
     }
     
 }
 @media  screen and (max-width: 576px) {
    header1, body, header, section, footer{
         width: 100%;
+      flex: 1 1 100%;
     }
     
 }

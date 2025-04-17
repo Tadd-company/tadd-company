@@ -1,6 +1,6 @@
 @media  screen and (max-width: 1200px) {
   .services, header1, body, header, section, footer{
-        width: 100%;
+        width: 1000px;
       flex: 1 1 100%;
      flex-direction: column;
 
@@ -9,7 +9,7 @@
 }
 @media  screen and (max-width: 998px) {
    .services, header1, body, header, section, footer{
-        width: 100%;
+        width: 768px;
       flex: 1 1 100%;
       flex-direction: column;
 
@@ -18,18 +18,19 @@
 }
 @media  screen and (max-width: 768px) {
     .services, header1, body, header, section, footer{
-        width: 100%;
+        width: 420px;
        flex: 1 1 100%;
        flex-direction: column;
 
     }
     
 }
-@media  screen and (max-width: 576px) {
+@media  screen and (max-width: 420px) {
    .services, header1, body, header, section, footer{
-        width: 100%;
+        width: 320px;
       flex: 1 1 100%;
       flex-direction: column;
+     
 
     }
     
@@ -39,7 +40,7 @@
         width: 100%;
       flex: 1 1 100%;
       flex-direction: column;
-     position: static;
+     
    }
 }
 

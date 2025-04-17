@@ -1,13 +1,25 @@
 @media  screen and (max-width: 1200px) {
+    header, section, footer{
+        width: 100%;
+    }
     
 }
 @media  screen and (max-width: 998px) {
+    header, section, footer{
+        width: 100%;
+    }
     
 }
 @media  screen and (max-width: 768px) {
+     header, section, footer{
+        width: 100%;
+    }
     
 }
 @media  screen and (max-width: 576px) {
+     header, section, footer{
+        width: 100%;
+    }
     
 }
 

@@ -1,23 +1,23 @@
 @media  screen and (max-width: 1200px) {
-    body, header, section, footer{
+   header1, body, header, section, footer{
         width: 100%;
     }
     
 }
 @media  screen and (max-width: 998px) {
-   body, header, section, footer{
+   header1, body, header, section, footer{
         width: 100%;
     }
     
 }
 @media  screen and (max-width: 768px) {
-     body, header, section, footer{
+    header1, body, header, section, footer{
         width: 100%;
     }
     
 }
 @media  screen and (max-width: 576px) {
-    body, header, section, footer{
+   header1, body, header, section, footer{
         width: 100%;
     }
     

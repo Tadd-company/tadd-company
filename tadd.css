@@ -83,7 +83,7 @@ img{
          -webkit-box-reflect: below 2,5px linear-gradient(transparent, transparent, rgba(3,3,3,0.2));
 }
 .slider span img{
-         position: relative;
+         position: absolute;
          border-radius:10px ;
          border: 6px ridge  #ccc;
 }

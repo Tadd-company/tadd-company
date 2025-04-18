@@ -60,7 +60,7 @@ img{
 .slider{
          width: 200px;
          height: 350px;
-         position:absolute;
+         position:relative;
          transform-style: preserve-3d;
          transform: perspective(1000px);
          animation: galery 20s  linear infinite;

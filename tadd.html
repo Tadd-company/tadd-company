@@ -1,62 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>tadd/smm</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tadd/smm</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-         <link rel="stylesheet" href="tadd.css">
+        <link rel="stylesheet" href="css/tadd.css">
 </head>
 <body>
-                  <header>
-                           <div class="container">
-                                    <nav class="navbar">
-                                             <div class="logo"> TADD</div>
-                                             <ul class="nav-links">
-                                                      <li><a href="#home">Home</li>
-                                                      <li><a href="#services">Services</li>
-                                                      <li><a href="#testmonials">Testimonials</li>
-                                             </ul>
-                                    </nav>
-                           </div>
-                  </header>
+                <header>
+                <div class="container">
+                                <nav class="navbar">
+                                        <div class="logo"> TADD</div>
+                                        <ul class="nav-links">
+                                                <li><a href="#home">Home</a></li>
+                                                <li><a href="#services">Services</a></li>
+                                                <li><a href="#testmonials">Testimonials</a></li>
+                                        </ul>
+                                </nav>
+</div>
+                </header>
+                <!-- hero section -->
+                <section class="hero" id="home">
+                        <div class="hero-content scroll-reveal">
+                                <h1 class="hero-title">Welcome to TADD</h1>
+                                        <p class="hero-text">Your one-stop solution for all your needs.</p>
+                                        <a href="#" class="btn">
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                Book Now
+                                        </a>
+                                        </div>
+                                <div class="hero-image scroll-reveal">
+                                        <img src="img/smm.png" alt="Hero Image">
+                        </div>
+                        </section>
+                        <!-- services section -->
+<section class="services" id="services">
+        <div class="container">
+                <h2 class="scroll-reveal">Our Services</h2>
+                <div class="services-grid">
+                        <div class="services-card scroll-reveal">
+                                <div class="services-icon">
+                                <i class="fa-solid fa-chart-line"></i>
+                                </div>
+                                <h3>Social Media Marketing</h3>
+                                <p>Boost your online presence with our expert social media marketing services.</p>
+                        </div>
+                        <div class="services-card scroll-reveal">
+                                <div class="services-icon">
+                                <i class="fa-solid fa-search"></i>
+                                </div>
+                                <h3>SEO Optimization</h3>
+                                <p>Improve your website's visibility on search engines with our SEO strategies.</p>
+                        </div>
+                        <div class="services-card scroll-reveal">
+                                <div class="services-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <h3>Email Marketing</h3>
+                                <p>Engage your audience with targeted email marketing campaigns.</p>
+                        </div>
+        </div>
+        </div>
+</section>
+<!-- еtestmonials sectio        -->
+<section class="testimonials" id="testmonials">
+        <div class="container">
+                <h2 class="scroll-reveal">What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                        <div class="testimonials-card scroll-reveal">
+                                <img src="img/t2.jpeg" alt="Client Image" class="client-image">
+                                <div class="rating">
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                </div>
+                                <p>"TADD has transformed our online presence. Highly recommend!"</p>
+                                <h4>- John Doe</h4>
+                        </div>
+                        <div class="testimonials-card scroll-reveal">
+                                <img src="img/t3.jpeg" alt="Client Image" class="client-image">
+                                <div class="rating">
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                </div>
+                                <p>"The team at TADD is professional and dedicated. Great service!"</p>
+                                <h4>- Jane Smith</h4>
+                        </div>
+                        <div class="testimonials-card scroll-reveal">
+                                <img src="img/t1.jpeg" alt="Client Image" class="client-image">
+                                <div class="rating">
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                        <i class="fa-solid fa-cloud"></i>
+                                </div>
+                                <p>"We saw a significant increase in engagement after working with TADD."</p>
+                                <h4>- Mark Johnson</h4>
+                        </div>
+                </div>
+        </div>
+</section>
+
+
+
+
+
+
 <!--          link to JavaScript file                                      -->
-         <script src="script.js"></script>
+        <script src="script.js"></script>
 
 
 </body>
 </html>
-<!--                   <p>Your partner in SMM and stunning web design</p>
-                  </header>
-                  <div class="slider">
-                           <span style="--i:1"><img src="img/ac6e9442a45261796bb238ef95aebcb9.png" alt="Image 1"></span>
-                           <span style="--i:2"><img src="img/chto-takoye-smm.jpg" alt="Image 2"></span>
-                           <span style="--i:3"><img src="img/1.jpEg" alt="Image 3"></span>
-                           <span style="--i:4"><img src="img/2.jpeg" alt="Image 4"></span>
-                           <span style="--i:5"><img src="img/3.jpeg" alt="Image 5"></span>
-                           <span style="--i:6"><img src="img/4.png" alt="Image 6"></span>
-                           <span style="--i:7"><img src="img/5.png" alt="Image 7"></span>
-                           <span style="--i:8"><img src="img/6.png" alt="Image 8"></span>
-                  </div >
-                  <section  class="service">
-                  <h2>Our Services</h2>
-                  <div class="services">
-                  <div class="card">
-         <h3>SMM Strategy</h3>
-                  <p>We help you grow your business and connect with your audience through smart social media campaigns.</p>
-                  </div>
-                  <div class="card">
-                  <h3>Website Development</h3>
-                  <p>From idea to launch, we create functional and beautiful websites tailored to your needs.</p>
-         </div>
-                  <div class="card">
-                  <h3>Custom Design</h3>
-                           <p>Our designers craft visually compelling designs that reflect your brand’s identity.</p>
-                  </div>
-                  </div>
-                  </section>
-                  <footer>
-                  <p>&copy; 2025 TADD. All rights reserved.</p>
-                  </footer>
-</body>
-</html> -->

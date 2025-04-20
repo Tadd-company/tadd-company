@@ -172,7 +172,7 @@ header{
          color: var(--light);
          position: relative ;
          overflow: hidden;
-         margin-left: 20px;
+         margin: 0;
 }
 .testimonials-grid{
          display: grid;
@@ -198,6 +198,9 @@ header{
          color:var(--accent);
          margin-bottom: 1rem;
 
+}
+.container{ 
+         padding: 20px;
 }
 /* Respomsive Design */
 @media (max-width: 1200px) {

@@ -223,7 +223,7 @@ header{
          .container {
                   flex:1;
          }
-         .nav-links{
+         .logo{
                   display: none;
          }
          .hero-title{

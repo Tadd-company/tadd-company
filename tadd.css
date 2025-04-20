@@ -14,8 +14,9 @@
 }
 body{
          background: var(--light);
-         color: 0 auto;
-         padding:0 10px; ;
+         color: var(--dark);
+         overflow-x: hidden;
+         
 }
 header{
          position:flex;

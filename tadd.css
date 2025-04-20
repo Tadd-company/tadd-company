@@ -172,7 +172,7 @@ header{
          color: var(--light);
          position: relative ;
          overflow: hidden;
-         margin: 0;
+         margin-left: 20px;
 }
 .testimonials-grid{
          display: grid;

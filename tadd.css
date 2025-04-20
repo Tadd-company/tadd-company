@@ -239,5 +239,8 @@ header{
                   opacity:1;
                   transform:translateY(0);
          }
+         .nav-links{
+                  display: block;
+         }
 }
          

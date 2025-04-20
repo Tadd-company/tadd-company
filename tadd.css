@@ -168,6 +168,7 @@ header{
 }
 /* Testmanials Section */
 .testimonials{
+         padding: 0;
          padding: 8rem 0rem;
          background: var(--secondary);
          color: var(--light);

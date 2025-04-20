@@ -85,6 +85,7 @@ header{
          background: linear-gradient(45deg, var(--dark), var(--primary));
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
+         
 }
 .hero-text{
          font-size: 1.2rem;
@@ -101,6 +102,7 @@ header{
 .hero-image img{
          width:100%;
          object-fit: cover;
+         border-radius: 100px;
 }
 /* Gradient Button */
 .btn{

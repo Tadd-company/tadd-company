@@ -167,7 +167,7 @@ header{
 }
 /* Testmanials Section */
 .testimonials{
-         padding: 8rem 10rem;
+         padding: 8rem 0rem;
          background: var(--secondary);
          color: var(--light);
          position: relative ;

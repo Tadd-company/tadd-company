@@ -8,17 +8,6 @@
         <link rel="stylesheet" href="tadd.css">
         
 </head>
-        <?php
-$pol=mysqli_connect("localhost","root","","tadd") or die ('Brak poloczenia z serwerem MySQL');
-$fullname=$_POST['fullname'];
-$email=$_POST['email'];
-$phonenumber=$_POST['phonenumber'];
-$services=$_POST['services'];
-$message=$_POST['message'];
-$dodaj_dane=mysqli_query($pol, "INSERT INTO dane (fullname,email,phonenumber,services,message) value ('$fullname','$email','$phonenumber','$services','$message')");
-header("Location: tadd.html");
-exit
-?>
 <body>
                 <header>
                 <div class="container">
@@ -135,7 +124,7 @@ exit
           <div class="booking-content scroll-reveal">
                 <h2>Let's talk about cooperation</h2>  
                 <p class="section-subtitle">Fill out the form and we will contact you within 24 hours to arrange a convenient time to talk.</p>
-        <form method="post" class="booking-form" action="tadd.php">
+        <form method="post" class="booking-form" action="" netlify>
                 <div class="form-grid">
                         <div class="input-group">
                         <input type="text" id="name" name="fullname" required>

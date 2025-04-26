@@ -4,6 +4,11 @@
          --accent: #FFD700;
          --dark :#2A2A2A;
          --light:#FFFFFF;
+         --1:#e83124;
+         --2:#f4692d;
+         --3:#fa9427;
+         --4:#ffe8e8;
+         --5:#651f15;
 }
 
 
@@ -162,7 +167,7 @@ header{
 .services-icon{
          width: 80px;
          height: 80px;
-         background: linear-gradient(45deg, var(--primary), var(--secondary));
+         background: linear-gradient(45deg, var(--1), var(--2));
          border-radius: 50%;
          margin: 0 auto 1.5rem;
          display:flex;

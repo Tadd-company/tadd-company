@@ -363,6 +363,9 @@ header{
                 padding-left: 40px;
                 
             }
+                 #service{
+         text-align:center;
+                 }
             
         .input-group i {
             left: 0.8rem;
@@ -381,6 +384,9 @@ header{
                 padding-left: 40px;
                      
             }
+             #service{
+         text-align:center;
+             }
              
              
         .hero-image{

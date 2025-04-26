@@ -141,7 +141,7 @@ header{
 /* services Sectionwith Hover effects */
 .services{
          padding:8rem 0;
-         background: linear-gradient(45deg, var(--4), #ffffff);
+         background: var(--4);
 }
 .services-grid{
          display: grid;

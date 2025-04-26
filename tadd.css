@@ -358,6 +358,7 @@ header{
             .input-group input,
             .input-group select{
                 padding-left: 2.5rem;
+                text-align: center;
             }
             
         .input-group i {
@@ -375,6 +376,7 @@ header{
              .input-group input,
             .input-group select{
                 padding-left: 2.5rem;
+                     text-align: center;
             }
 
         

@@ -354,7 +354,7 @@ header{
         .full-width{
             grid-column: 1 / -1;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 390px) {
             .input-group input,
             .input-group select{
                 padding-left: 2.5rem;
@@ -364,12 +364,17 @@ header{
             left: 0.8rem;
         }
     }
+
     @media (max-width: 420px) {
         .logo{
             padding-right: 25px;
             }
             .nav-links{
                 gap: 1rem;
+            }
+             .input-group input,
+            .input-group select{
+                padding-left: 2.5rem;
             }
 
         

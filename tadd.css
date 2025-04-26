@@ -357,8 +357,8 @@ header{
         @media (max-width: 390px) {
             .input-group input,
             .input-group select{
-                padding-left: 2.5rem;
-                text-align: center;
+                padding-left: 40px;
+                
             }
             
         .input-group i {

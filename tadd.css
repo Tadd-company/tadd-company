@@ -398,7 +398,7 @@ footer{
     padding: 0 1.5rem;
 }
 .footer-col h3{
-    color: var(--primary);
+    color: var(--2);
     font-size: 1.5rem;
     margin-bottom: 2rem;
     position: relative;
@@ -411,7 +411,7 @@ footer{
     left: 0;
     width: 50px;
     height: 2px;
-    background: var(--primary);
+    background: var(--2);
 }
 .footer-col p {
     color: rgba(255, 255, 255, 0.8);

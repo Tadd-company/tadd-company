@@ -378,7 +378,11 @@ header{
                 padding-left: 2.5rem;
                      text-align: center;
             }
-
+             
+             .fa-solid fa-file-contract{
+                      display: none;
+             }
+                      
         
         
         .hero-image{

@@ -262,7 +262,7 @@ header{
 
         .booking{
             padding: 8rem 0;
-            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            background: linear-gradient(45deg, var(--1), var(--2));
             color: var(--light);
             position: relative;
             overflow: hidden;

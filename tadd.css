@@ -375,13 +375,11 @@ header{
             }
              .input-group input,
             .input-group select{
-                padding-left: 2.5rem;
-                     text-align: center;
+                padding-left: 40px;
+                     
             }
              
-             .fa-solid fa-file-contract{
-                      display: none;
-             }
+             
         .hero-image{
             
             padding-left: 15px;

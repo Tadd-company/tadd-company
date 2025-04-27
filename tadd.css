@@ -260,6 +260,7 @@ header{
             opacity: 1;
             transform: translateY(0);
         }
+}
 
         .booking{
             padding: 8rem 0;
@@ -316,7 +317,7 @@ header{
            
             
         }
-}
+
         .input-group label{
             position: absolute;
             left: 3rem;

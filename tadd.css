@@ -250,7 +250,7 @@ header{
          .hero-title{
                   font-size: 2.8rem;
          }
-        }
+        
         .scroll-reveal{
             opacity: 0;
             transform: translateY(30px);
@@ -355,6 +355,7 @@ header{
         .full-width{
             grid-column: 1 / -1;
         }
+}
         @media (max-width: 390px) {
             .input-group input,
             .input-group select{

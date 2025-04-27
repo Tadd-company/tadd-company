@@ -316,6 +316,7 @@ header{
            
             
         }
+}
         .input-group label{
             position: absolute;
             left: 3rem;
@@ -355,7 +356,6 @@ header{
         .full-width{
             grid-column: 1 / -1;
         }
-}
         @media (max-width: 390px) {
             .input-group input,
             .input-group select{

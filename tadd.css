@@ -250,6 +250,9 @@ header{
          .hero-title{
                   font-size: 2.8rem;
          }
+            .fa-solid fa-file-contract{
+                      padding: 10px;
+             }
 }
         
         .scroll-reveal{

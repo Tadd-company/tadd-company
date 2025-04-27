@@ -320,7 +320,7 @@ header{
 
         .input-group label{
             position: absolute;
-            left: 3rem;
+            left: 6rem;
             top: 50%;
             transform: translateY(-50%);
             color: rgba(255, 255, 255, 0.7);

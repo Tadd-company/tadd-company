@@ -250,6 +250,7 @@ header{
          .hero-title{
                   font-size: 2.8rem;
          }
+}
         
         .scroll-reveal{
             opacity: 0;
@@ -260,7 +261,6 @@ header{
             opacity: 1;
             transform: translateY(0);
         }
-}
 
         .booking{
             padding: 8rem 0;
@@ -384,7 +384,7 @@ header{
                 padding-left: 40px;
                      
             }
-             .service{
+             #service{
          text-align:center;
              }
              
@@ -395,7 +395,7 @@ header{
         }
              .fa-solid fa-file-contract{
                       padding: 5px;
-                      ]
+             }
     }
 /* footer */
 footer{
